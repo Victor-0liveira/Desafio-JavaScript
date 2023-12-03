@@ -9,5 +9,5 @@ const listaDeTarefas = [
 
 for (let i = 0; i < listaDeTarefas.length; i++) {
   const tarefa = listaDeTarefas[i];
-  console.log(`Tarefa ${i + 1}: ${tarefa.nome} -> Status: ${tarefa.status}`);
+  console.log(`Tarefa {i + 1}: {tarefa.nome} -> Status: {tarefa.status}`);
 }
